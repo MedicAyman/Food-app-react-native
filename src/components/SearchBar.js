@@ -12,6 +12,7 @@ const SearchBar = ({ term, onTermChange, onTermSubmit }) => {
         value={term}
         onChangeText={(newTerm) => onTermChange(newTerm)}
         onEndEditing={onTermSubmit}
+        autoCapitalize="none"
       />
     </View>
   );
@@ -23,6 +24,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 15,
     borderRadius: 15,
     flexDirection: "row",
+    marginBottom: 10
   },
   inputStyle: {
     flex: 1,
