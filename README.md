@@ -6,3 +6,6 @@ The app fetches for restaurants in San Jose and tells categorizes them taking ad
 
 
 This Project has been made for the sake of learning and practice
+
+
+![alt text](https://github.com/MedicAyman/Food-app-react-native/blob/master/SCREENSHOT_DEMO.PNG?raw=true)
